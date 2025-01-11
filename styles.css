@@ -8,6 +8,7 @@
 }
 
 .wrapper {
+  overflow-y: hidden;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
@@ -97,4 +98,10 @@
 
 .win {
   background-color: rgba(0, 255, 0, 0.3);
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    bottom: 7rem;
+  }
 }
